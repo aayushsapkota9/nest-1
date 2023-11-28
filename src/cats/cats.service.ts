@@ -3,6 +3,9 @@ import { Cat } from 'src/cats/interfaces/cat.interface';
 
 @Injectable()
 export class CatsService {
+  findOne(id: number) {
+    throw new Error('Method not implemented.');
+  }
   private readonly cats: Cat[] = [];
 
   create(cat: Cat) {
